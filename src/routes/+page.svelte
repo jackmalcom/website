@@ -26,7 +26,7 @@
 			</section>
 			<div class="mb-6 flex w-full justify-center">
 				<CtaButton
-					href="https://github.com/dizeeee/resume/blob/main/jackmalcom.pdf"
+					href="https://github.com/jackmalcom/resume/blob/main/jackmalcom.pdf"
 					text="Read my resume!"
 				/>
 			</div>
@@ -147,7 +147,7 @@
 			</section>
 
 			<section>
-				<h4>Solvescapes - <a href="https://github.com/dizeeee/solvescapes">Repo</a></h4>
+				<h4>Solvescapes - <a href="https://github.com/jackmalcom/solvescapes">Repo</a></h4>
 
 				<p>
 					I enjoy playing Wordscapes with my family. It's a game where you unscramble
@@ -168,7 +168,7 @@
 			</section>
 
 			<section>
-				<h4>catbat - <a href="https://github.com/dizeeee/catbat">Repo</a></h4>
+				<h4>catbat - <a href="https://github.com/jackmalcom/catbat">Repo</a></h4>
 
 				<p>
 					catbat is a basic CLI tool that shows battery info. I wrote it in Rust as an
@@ -197,7 +197,7 @@
 				>
 					<i class="fa-brands fa-linkedin hover:contrast-50"></i>
 				</a>
-				<a href="https://github.com/dizeeee" aria-label="My GitHub">
+				<a href="https://github.com/jackmalcom" aria-label="My GitHub">
 					<i class="fa-brands fa-github hover:contrast-50"></i>
 				</a>
 			</div>
