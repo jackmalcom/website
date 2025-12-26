@@ -1,16 +1,14 @@
 <script lang="ts">
-	import { preventDefault } from 'svelte/legacy';
-
 	import { scrollTo } from '$lib/helper';
 
 	let y = $state(0);
-	let navbar: HTMLElement = $state();
+	let navbar: HTMLElement | undefined = $state();
 
 	function fadeIn(event: any) {
 		// convert y to viewport percentage
 		let yvp = (y / window.innerHeight) * 100;
-		navbar.classList.toggle('dark', yvp < 80);
-		navbar.classList.toggle('light', yvp >= 80);
+		navbar?.classList.toggle('dark', yvp < 80);
+		navbar?.classList.toggle('light', yvp >= 80);
 	}
 </script>
 
@@ -24,14 +22,20 @@
 		href="#about"
 		class="decoration-2 underline-offset-2 hover:underline"
 		aria-label="Scroll to the about section"
-		onclick={preventDefault(scrollTo)}
+		onclick={(e) => {
+			e.preventDefault();
+			scrollTo(e);
+		}}
 		>About
 	</a>
 	<a
 		href="#contact"
 		class="decoration-2 underline-offset-2 hover:underline"
 		aria-label="Scroll to the contact section"
-		onclick={preventDefault(scrollTo)}
+		onclick={(e) => {
+			e.preventDefault();
+			scrollTo(e);
+		}}
 	>
 		Contact
 	</a>
@@ -44,6 +48,6 @@
 	}
 
 	.dark {
-		@apply text-white border-2 border-transparent;
+		@apply border-2 border-transparent text-white;
 	}
 </style>

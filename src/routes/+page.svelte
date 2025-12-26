@@ -36,12 +36,22 @@
 			<h3>Where I've been</h3>
 
 			<ResumeSection
+				company="Solace Health"
+				title="Software Engineer"
+				startDate="September 2025"
+				endDate="Present"
+				description="I'm at Solace now, where we're building what we hope becomes the go-to platform for healthcare
+                advocacy in the US. Most of my time is dedicated toward making life easier for the advocates using our platform.
+                It's a full TypeScript stack with Nest.js on the backend and React on the frontend."
+			/>
+
+			<ResumeSection
 				company="Walmart Global Tech"
 				title="Software Engineer III"
 				startDate="July 2023"
-				endDate="Present"
-				description="I currently work in Health & Wellness, where I develop tools used to maintain Walmart's
-				patient profile systems. Most of my work is in Spring Boot, but I also work with Rust and
+				endDate="August 2025"
+				description="I worked in Health & Wellness, where I developed tools used to maintain Walmart's
+				patient profile systems. Most of my work was in Spring Boot, but I also worked with Rust and
 				React."
 			/>
 
